@@ -20,7 +20,7 @@ This is a simple currency converter web application created using HTML, CSS, and
 1. Clone the repository:
 
    ```bash
-   https://github.com/yashpandav/Currency_Converter.git
+   git clone https://github.com/yashpandav/Currency_Converter.git
 
 2. Open `index.html` in browser.
 
