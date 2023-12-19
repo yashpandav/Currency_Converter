@@ -47,6 +47,7 @@ This is a simple currency converter web application created using HTML, CSS, and
 
 ## Demo
 
+ 👉 [CLICK HERE FOR DEMO](https://yashpandav.github.io/Currency_Converter/)
 ![one](one.png)
 ![two](two.png)
 ![three](three.png)
