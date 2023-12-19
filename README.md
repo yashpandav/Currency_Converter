@@ -26,7 +26,7 @@ This is a simple currency converter web application created using HTML, CSS, and
 
 2. Add the amount you want to convert.
 
-3. Selcet country currency code of the currency you wanted to convert into the other currency currency code.
+3. Selcet country currency code of the currency you wanted to convert into the other country currency code.
 
 4. Click on convert button.
 
