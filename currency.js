@@ -57,3 +57,29 @@ const currencyRATE = async ()=>{
 window.addEventListener("load" , ()=>{
      currencyRATE();
 })
+
+let icon = document.querySelector("#change");
+let click = false;
+icon.addEventListener("click" , ()=>{
+     if(click === false){
+          changeIcon();
+          click = true;
+     }
+     else{
+          click = false;
+          changeIcon();
+     }
+})
+
+let img1 = document.querySelector("#img1");
+let img2 = document.querySelector("#img2");
+
+const changeIcon = ()=> {
+     let temp = fromCurr.value;
+     fromCurr.value = toCurr.value;
+     toCurr.value = temp;
+     let tempImg = img1.src;
+     img1.src = img2.src;
+     img2.src = tempImg;
+     currencyRATE();
+}
